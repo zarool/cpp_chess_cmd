@@ -1,0 +1,3 @@
+D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/chess_cmd.dir
+D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/rebuild_cache.dir

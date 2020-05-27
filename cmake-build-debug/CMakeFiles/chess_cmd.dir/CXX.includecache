@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Users/Abc/cppProjects/chess_cmd/Piece.h
+
+D:/Users/Abc/cppProjects/chess_cmd/board.cpp
+board.h
+D:/Users/Abc/cppProjects/chess_cmd/board.h
+iostream
+-
+
+D:/Users/Abc/cppProjects/chess_cmd/board.h
+vector
+-
+Piece.h
+D:/Users/Abc/cppProjects/chess_cmd/Piece.h
+
