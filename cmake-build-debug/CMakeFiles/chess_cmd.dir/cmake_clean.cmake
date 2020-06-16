@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/chess_cmd.dir/Piece.cpp.obj"
   "CMakeFiles/chess_cmd.dir/board.cpp.obj"
   "CMakeFiles/chess_cmd.dir/main.cpp.obj"
+  "CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj"
   "chess_cmd.exe"
   "chess_cmd.exe.manifest"
   "chess_cmd.pdb"

@@ -7,16 +7,30 @@
 #IncludeRegexTransform: 
 
 D:/Users/Abc/cppProjects/chess_cmd/Piece.h
+iostream
+-
 
 D:/Users/Abc/cppProjects/chess_cmd/board.cpp
 board.h
 D:/Users/Abc/cppProjects/chess_cmd/board.h
+./pieces/Type.h
+D:/Users/Abc/cppProjects/chess_cmd/pieces/Type.h
 iostream
+-
+regex
+-
+string
+-
+windows.h
 -
 
 D:/Users/Abc/cppProjects/chess_cmd/board.h
 vector
 -
 Piece.h
+D:/Users/Abc/cppProjects/chess_cmd/Piece.h
+
+D:/Users/Abc/cppProjects/chess_cmd/pieces/Type.h
+../Piece.h
 D:/Users/Abc/cppProjects/chess_cmd/Piece.h
 

@@ -8,12 +8,36 @@
 
 class board {
 private:
+    //0 = white, 1 = black
+    int turn = 0;
+    int enemy = 1;
+    bool error = false;
     int const size = 8;
-    char letters[8] {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
-    std::vector<Piece> BoardSet;
+    Piece *BoardSet[8][8];
+    std::string info = "";
 
 public:
-    void PrintBoard();
+    void PrintBoard() const;
+
+    void PrintInfo();
+
+    void NextTurn() {
+        this->turn = 1 - this->turn;
+        this->enemy = 1 - this->enemy;
+    }
+
+    static bool CheckInput(std::string);
+
+    void MakeMove(std::string);
+
+    void PrintError() const;
+
+    void setError(bool s) { error = s; }
+
+    bool isError() const { return error; }
+
+    std::string GetTurn() const { return (this->turn == 0) ? "white" : "black"; };
+
     board();
 };
 

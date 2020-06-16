@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Users/Abc/cppProjects/chess_cmd/Piece.cpp" "D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/chess_cmd.dir/Piece.cpp.obj"
   "D:/Users/Abc/cppProjects/chess_cmd/board.cpp" "D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/chess_cmd.dir/board.cpp.obj"
   "D:/Users/Abc/cppProjects/chess_cmd/main.cpp" "D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/chess_cmd.dir/main.cpp.obj"
+  "D:/Users/Abc/cppProjects/chess_cmd/pieces/Type.cpp" "D:/Users/Abc/cppProjects/chess_cmd/cmake-build-debug/CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

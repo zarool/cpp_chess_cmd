@@ -122,33 +122,6 @@ chess_cmd/fast:
 	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/build
 .PHONY : chess_cmd/fast
 
-Piece.obj: Piece.cpp.obj
-
-.PHONY : Piece.obj
-
-# target to build an object file
-Piece.cpp.obj:
-	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/Piece.cpp.obj
-.PHONY : Piece.cpp.obj
-
-Piece.i: Piece.cpp.i
-
-.PHONY : Piece.i
-
-# target to preprocess a source file
-Piece.cpp.i:
-	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/Piece.cpp.i
-.PHONY : Piece.cpp.i
-
-Piece.s: Piece.cpp.s
-
-.PHONY : Piece.s
-
-# target to generate assembly for a file
-Piece.cpp.s:
-	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/Piece.cpp.s
-.PHONY : Piece.cpp.s
-
 board.obj: board.cpp.obj
 
 .PHONY : board.obj
@@ -203,6 +176,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pieces/Type.obj: pieces/Type.cpp.obj
+
+.PHONY : pieces/Type.obj
+
+# target to build an object file
+pieces/Type.cpp.obj:
+	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj
+.PHONY : pieces/Type.cpp.obj
+
+pieces/Type.i: pieces/Type.cpp.i
+
+.PHONY : pieces/Type.i
+
+# target to preprocess a source file
+pieces/Type.cpp.i:
+	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/pieces/Type.cpp.i
+.PHONY : pieces/Type.cpp.i
+
+pieces/Type.s: pieces/Type.cpp.s
+
+.PHONY : pieces/Type.s
+
+# target to generate assembly for a file
+pieces/Type.cpp.s:
+	$(MAKE) -f CMakeFiles\chess_cmd.dir\build.make CMakeFiles/chess_cmd.dir/pieces/Type.cpp.s
+.PHONY : pieces/Type.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +212,15 @@ help:
 	@echo ... edit_cache
 	@echo ... chess_cmd
 	@echo ... rebuild_cache
-	@echo ... Piece.obj
-	@echo ... Piece.i
-	@echo ... Piece.s
 	@echo ... board.obj
 	@echo ... board.i
 	@echo ... board.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pieces/Type.obj
+	@echo ... pieces/Type.i
+	@echo ... pieces/Type.s
 .PHONY : help
 
 

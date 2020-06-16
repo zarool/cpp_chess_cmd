@@ -82,9 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/Piece.cpp">
-			<Option target="chess_cmd"/>
-		</Unit>
 		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/Piece.h">
 			<Option target="chess_cmd"/>
 		</Unit>
@@ -95,6 +92,12 @@
 			<Option target="chess_cmd"/>
 		</Unit>
 		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/main.cpp">
+			<Option target="chess_cmd"/>
+		</Unit>
+		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/pieces/Type.cpp">
+			<Option target="chess_cmd"/>
+		</Unit>
+		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/pieces/Type.h">
 			<Option target="chess_cmd"/>
 		</Unit>
 		<Unit filename="D:/Users/Abc/cppProjects/chess_cmd/CMakeLists.txt">

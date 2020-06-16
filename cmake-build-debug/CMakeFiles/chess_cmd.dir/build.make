@@ -82,31 +82,31 @@ CMakeFiles/chess_cmd.dir/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_cmd.dir/board.cpp.s"
 	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\Abc\cppProjects\chess_cmd\board.cpp -o CMakeFiles\chess_cmd.dir\board.cpp.s
 
-CMakeFiles/chess_cmd.dir/Piece.cpp.obj: CMakeFiles/chess_cmd.dir/flags.make
-CMakeFiles/chess_cmd.dir/Piece.cpp.obj: ../Piece.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Abc\cppProjects\chess_cmd\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chess_cmd.dir/Piece.cpp.obj"
-	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chess_cmd.dir\Piece.cpp.obj -c D:\Users\Abc\cppProjects\chess_cmd\Piece.cpp
+CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj: CMakeFiles/chess_cmd.dir/flags.make
+CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj: ../pieces/Type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Users\Abc\cppProjects\chess_cmd\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj"
+	D:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\chess_cmd.dir\pieces\Type.cpp.obj -c D:\Users\Abc\cppProjects\chess_cmd\pieces\Type.cpp
 
-CMakeFiles/chess_cmd.dir/Piece.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_cmd.dir/Piece.cpp.i"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Abc\cppProjects\chess_cmd\Piece.cpp > CMakeFiles\chess_cmd.dir\Piece.cpp.i
+CMakeFiles/chess_cmd.dir/pieces/Type.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chess_cmd.dir/pieces/Type.cpp.i"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Users\Abc\cppProjects\chess_cmd\pieces\Type.cpp > CMakeFiles\chess_cmd.dir\pieces\Type.cpp.i
 
-CMakeFiles/chess_cmd.dir/Piece.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_cmd.dir/Piece.cpp.s"
-	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\Abc\cppProjects\chess_cmd\Piece.cpp -o CMakeFiles\chess_cmd.dir\Piece.cpp.s
+CMakeFiles/chess_cmd.dir/pieces/Type.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chess_cmd.dir/pieces/Type.cpp.s"
+	D:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Users\Abc\cppProjects\chess_cmd\pieces\Type.cpp -o CMakeFiles\chess_cmd.dir\pieces\Type.cpp.s
 
 # Object files for target chess_cmd
 chess_cmd_OBJECTS = \
 "CMakeFiles/chess_cmd.dir/main.cpp.obj" \
 "CMakeFiles/chess_cmd.dir/board.cpp.obj" \
-"CMakeFiles/chess_cmd.dir/Piece.cpp.obj"
+"CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj"
 
 # External object files for target chess_cmd
 chess_cmd_EXTERNAL_OBJECTS =
 
 chess_cmd.exe: CMakeFiles/chess_cmd.dir/main.cpp.obj
 chess_cmd.exe: CMakeFiles/chess_cmd.dir/board.cpp.obj
-chess_cmd.exe: CMakeFiles/chess_cmd.dir/Piece.cpp.obj
+chess_cmd.exe: CMakeFiles/chess_cmd.dir/pieces/Type.cpp.obj
 chess_cmd.exe: CMakeFiles/chess_cmd.dir/build.make
 chess_cmd.exe: CMakeFiles/chess_cmd.dir/linklibs.rsp
 chess_cmd.exe: CMakeFiles/chess_cmd.dir/objects1.rsp
